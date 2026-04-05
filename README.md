@@ -1,5 +1,7 @@
 # Packet Analyzer
 
+> **Part of the [Orchestrix Platform](https://github.com/Yogevso/Orchestrix-Platform)** — the network analysis layer for deep packet inspection and anomaly detection.
+
 A low-level network packet analyzer built in C using raw sockets. It captures live Ethernet frames, parses protocol headers (IPv4 / TCP / UDP / ICMP / ARP / DNS), applies user-defined filters, and detects network anomalies including ARP spoofing — all from the command line with live statistics, hex dump, JSON output, and configurable rules.
 
 ## Why It Matters
